@@ -1,0 +1,32 @@
+{
+	"name": "SkarZM/Structure",
+	"description": "Structure module. A part of Content Management System",
+	"type": "library",
+	"license": "proprietary",
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"require": {
+		"php": "^7.1",
+		"zendframework/zend-mvc": "^3.0.1",
+		"doctrine/doctrine-orm-module": "^2.1"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^7.4",
+		"squizlabs/php_codesniffer": "^3.3"
+	},
+	"autoload": {
+		"psr-4": {
+			"SkarZM\\Structure\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"SkarZMTest\\Structure\\": "test/"
+		}
+	},
+	"scripts": {
+		"cs-check": "phpcs",
+		"cs-fix": "phpcbf",
+		"test": "phpunit"
+	}
+}
