@@ -33,7 +33,7 @@ return [
 
 	'doctrine' => [
 		'driver' => [
-			'Structure\Entity' => [
+			'SkarZM\Structure\Entity' => [
 				'class' => \Doctrine\ORM\Mapping\Driver\AnnotationDriver::class,
 				'cache' => 'array',
 				'paths' => [
@@ -43,7 +43,7 @@ return [
 
 			'orm_default' => [
 				'drivers' => [
-					'Structure\Entity' => 'Structure\Entity',
+					'SkarZM\Structure\Entity' => 'SkarZM\Structure\Entity',
 				],
 			],
 		],
