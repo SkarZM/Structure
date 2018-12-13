@@ -6,7 +6,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * Class Item
  *
- * @ORM\Entity(repositoryClass="\Structure\Repository\Doctrine\Node")
+ * @ORM\Entity(repositoryClass="\SkarZM\Structure\Repository\Doctrine\Node")
  * @ORM\Table(
  *     name="structure_node",
  *     uniqueConstraints={ @ORM\UniqueConstraint(columns={"name"}) },
